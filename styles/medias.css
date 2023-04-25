@@ -1,0 +1,203 @@
+@media (max-width: 1200px) {
+  .navigation {
+    left: calc(100vw - 97vw);
+  }
+
+  .container {
+    padding: 0 35px;
+  }
+
+  .hero-title {
+    font-size: calc(17vw - 15px);
+  }
+
+  .hero-subtitle {
+    font-size: calc(3vw + .4em);
+  }
+
+  .hero-content {
+    margin-left: calc(100vw - 840px);
+  }
+
+  .hero-title-part:last-child {
+    margin-top: -55px;
+  }
+
+  .about-subtitle,
+  .about-content {
+    margin-left: calc(100vw - 840px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caption-title {
+    font-size: calc(1vw + .5em);
+  }
+
+  .hero-section {
+    margin-bottom: 310px;
+    padding-top: 190px;
+  }
+
+  .hero-title {
+    margin-bottom: 100px;
+    order: 1;
+  }
+
+  .hero-subtitle {
+    order: 3;
+    margin-left: 0;
+  }
+
+  .hero-caption {
+    order: 2;
+    font-size: calc(1vw + .5em);
+  }
+
+  .hero-content {
+    order: 4;
+    font-size: calc(1vw + .5em);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  .hero-line:first-child {
+    left: calc(50% + 250px);
+  }
+
+  .about-caption {
+    margin-bottom: 140px;
+  }
+
+  .about-subtitle {
+    margin: 0 0 45px;
+  }
+
+  .about-content {
+    font-size: calc(1vw + .5em);
+    margin: 0 0 100px;
+  }
+
+  .summary {
+    margin: 0 0 90px;
+  }
+
+  .work-list-item-title {
+    font-size: 70px;
+  }
+
+  .contact-content {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 842px) {
+  .hero-content {
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto 50px;
+  }
+
+  .hero-content p {
+    width: 100%;
+  }
+
+  .hero-lines {
+    display: none;
+  }
+
+  .hero-title-part:last-child {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .caption-title {
+    width: calc(50vw - 5px);
+    margin-bottom: 70px;
+  }
+
+  .caption-title.underliner:before {
+    width: 100%;
+  }
+
+  .hero-section {
+    margin-bottom: 120px;
+    padding-top: 75px;
+  }
+
+  .hero-caption {
+    margin-bottom: 70px;
+  }
+
+  .hero-caption.underliner:before {
+    width: 50%;
+  }
+
+  .hero-title-part:last-child {
+    margin-top: -40px;
+  }
+
+  .about-content {
+    display: block;
+    margin: 0 0 80px;
+  }
+
+  .about-content p {
+    width: 100%;
+  }
+
+  .summary-letter {
+    font-size: 14px;
+  }
+
+  .summary-title-underline {
+    margin-bottom: 20px;
+  }
+
+  .work-list-item-title {
+    font-size: 40px;
+  }
+
+  .work-picture {
+    width: calc(70vw);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .contact-content {
+    font-size: 40px;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .contact-email img {
+    right: 200px;
+    width: 18px;
+  }
+
+  .contact-email a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-title-part:last-child {
+    margin-top: -30px;
+  }
+
+  .summary-letter {
+    font-size: 12px;
+  }
+}
