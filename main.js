@@ -94,17 +94,17 @@ projects.forEach((project) => {
   oneProject.classList = 'work-list-item'
 
   oneProject.innerHTML = `
-    <a href="${project.project_link}" target="_blank" class="work-list-item-inner">
+    <a href="/project" data-link class="work-list-item-inner">
       <img class="work-picture" src="${project.project_picture}" alt="${project.title}-illustration">
     </a>
 
     <h4 class="work-list-item-title">
-      <a href="${project.project_link}" target="_blank" data-title="${project.title}"></a>
+      <a href="/project" data-link target="_blank" data-title="${project.title}"></a>
     </h4>
 
     <p class="work-list-item-role">${project.role}</p>
 
-    <a href="${project.project_link}" target="_blank" class="button">
+    <a href="/project" data-link target="_blank" class="button">
       <span class="button-text">voir le projet</span>
     </a>
   `
