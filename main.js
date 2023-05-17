@@ -94,17 +94,17 @@ projects.forEach((project) => {
   oneProject.classList = 'work-list-item'
 
   oneProject.innerHTML = `
-    <a href="${project.project_link}" target="_blank" class="work-list-item-inner">
+    <a href="/project" data-link class="work-list-item-inner">
       <img class="work-picture" src="${project.project_picture}" alt="${project.title}-illustration">
     </a>
 
     <h4 class="work-list-item-title">
-      <a href="${project.project_link}" target="_blank" data-title="${project.title}"></a>
+      <a href="/project" data-link target="_blank" data-title="${project.title}"></a>
     </h4>
 
     <p class="work-list-item-role">${project.role}</p>
 
-    <a href="${project.project_link}" target="_blank" class="button">
+    <a href="/project" data-link target="_blank" class="button">
       <span class="button-text">voir le projet</span>
     </a>
   `
@@ -117,7 +117,7 @@ projects.forEach((project) => {
     workTitle.innerHTML += `
       <div class="work-title-letter">
         <span>${letter}</span>
-      <div>
+      </div>
     `
   })
 })
@@ -219,5 +219,5 @@ animationOnSrcoll(allSummaryContent, 'center 85%', 'play', 25, 0, .8, .2, .5)
 const summaryTitleConnection = document.querySelector('.summary-title.connection')
 animationOnSrcoll(summaryTitleConnection, 'center 85%', 'play', 25, 0, .8, 0, .5)
 
-const summaryContentConnexion = document.querySelectorAll('.summary-content.connection li')
-animationOnSrcoll(summaryContentConnexion, 'center 90%', 'play', 25, 0, .8, .2, .5)
+const summaryContentConnection = document.querySelectorAll('.summary-content.connection li')
+animationOnSrcoll(summaryContentConnection, 'center 90%', 'play', 25, 0, .8, .2, .5)
